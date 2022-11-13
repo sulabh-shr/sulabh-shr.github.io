@@ -106,14 +106,14 @@ name {
 }
 
 .one {
-  width: 160px;
-  height: 160px;
+  width: 75%;
+  height: 75%;
   position: relative;
 }
 
 .two {
-  width: 160px;
-  height: 160px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
@@ -128,4 +128,38 @@ name {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+img.flip {
+    width: 100%; 
+    max-height: 100%; 
+    max-width: 100%;
+}
+
+td.research-left {
+    padding:4px;
+    width:30%;
+    vertical-align:middle;
+    margin:auto;
+}
+
+td.research-right {
+    padding:4px;
+    width:70%;
+    vertical-align:middle;
+    margin:auto;
+}
+
+td.proj-left {
+    padding:4px;
+    width:35%;
+    vertical-align:middle;
+    margin:auto;
+}
+
+td.proj-right {
+    padding:4px;
+    width:65%;
+    vertical-align:top;
+    margin:auto;
 }

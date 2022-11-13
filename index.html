@@ -29,11 +29,11 @@
                                     <p>I recently obtained by Masters in Computer Science while working towards my PhD. My most recent research focuses on utilizing foundational principles like spatial and temporal consistency for perception models. </p>
                                     <p>I completed my undergraduate degree from IOE - Pulchowk Campus, Tribhuvan University.</p>
                                     <p style="text-align:center">
-                                        <a href="mailto:sulabh.shr@gmail.com">Email</a> &nbsp/&nbsp
-                                        <a href="data/sulabh-cv.pdf">CV</a> &nbsp/&nbsp
-                                        <a href="https://scholar.google.com/citations?user=pZkPBhkAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
-                                        <a href="https://github.com/sulabh-shr/">Github</a> &nbsp/&nbsp
-                                        <a href="https://www.linkedin.com/in/sulabh-shrestha/">LinkedIn</a>
+                                        <a href="mailto:sulabh.shr@gmail.com">email</a> &nbsp|&nbsp
+                                        <a href="data/sulabh-cv.pdf">cv</a> &nbsp|&nbsp
+                                        <a href="https://scholar.google.com/citations?user=pZkPBhkAAAAJ&hl=en">google scholar</a> &nbsp|&nbsp
+                                        <a href="https://github.com/sulabh-shr/">github</a> &nbsp|&nbsp
+                                        <a href="https://www.linkedin.com/in/sulabh-shrestha/">linkedIn</a>
                                     </p>
                                 </td>
                                 <!-- ----------------------------------------------- Image ----------------------------------------------- -->
@@ -66,21 +66,21 @@
 
                         <!-- ----------------------------------------------- |=|=|=|=| ----------------------------------------------- -->
                         <tr onmouseout="regconsist_stop()" onmouseover="regconsist_start()" bgcolor="#ffffff">
-                            <td style="padding:20px;width:30%;vertical-align:middle">
+                            <td class="research-left">
                                 <div class="one">
-                                    <div class="two" id='resconsist_img'>
-                                        <img src='images/papers/regconsist_after.png' width="200">
+                                    <div class="two" id="resconsist_img">
+                                        <img class="flip" src="images/papers/regconsist_after.png">
                                     </div>
-                                    <img src='images/papers/regconsist_before.png' width="200">
+                                    <img class="flip" src="images/papers/regconsist_before.png">
                                 </div>
                                 <script type="text/javascript">
-                                    function regconsist_start() {document.getElementById('resconsist_img').style.opacity = "1";}
-                                    function regconsist_stop() {document.getElementById('resconsist_img').style.opacity = "0";}
+                                    function regconsist_start() {document.getElementById("resconsist_img").style.opacity = "1";}
+                                    function regconsist_stop() {document.getElementById("resconsist_img").style.opacity = "0";}
                                     regconsist_stop()
                                 </script>
                             </td>
                             <!-- ----------------------------------------------- Info ----------------------------------------------- -->
-                            <td style="padding:20px;width:70%;vertical-align:middle">
+                            <td class="research-right">
                                 <a href="https://arxiv.org/abs/2210.01884"><papertitle>Self-supervised Pre-training for Semantic Segmentation in an Indoor Scene</papertitle></a>
                                 <br>
                                 <strong>Sulabh Shrestha</strong>,
@@ -89,9 +89,9 @@
                                 <br>
                                 Under review at <em>ICRA</em>, 2023
                                 <br>
-                                <a href="https://arxiv.org/abs/2210.01884">arXiv</a>
+                                [ <a href="https://arxiv.org/abs/2210.01884">arXiv</a> ]
                                 <br>
-                                <p>Utilizing an agent's ability to move around and register multiple views to pre-train semantic segmentation model in a self-supervised manner.</p>
+                                <p>Pre-train a semantic segmentation model using RegConsist. A new method that utilizes an agent's ability to move around and register multiple views to pre-train in a self-supervised manner.</p>
                             </td>
                         </tr>
                         <!-- ----------------------------------------------- |=|=|=|=| ----------------------------------------------- -->
@@ -121,25 +121,26 @@
 
                         <!-- ----------------------------------------------- |=|=|=|=| ----------------------------------------------- -->
                         <tr onmouseout="vislocsift_stop()" onmouseover="vislocsift_start()" bgcolor="#ffffff">
-                            <td style="padding:4px;width:30%;vertical-align:middle;margin:auto;">
+                            <td class="proj-left">
                                 <div class="one">
-                                    <div class="two" id='vislocsift_img'>
-                                        <img src='images/projects/vislocsift_after.png' width="auto" style="max-height: 80%; max-width: 100%;">
+                                    <div class="two" id="vislocsift_img">
+                                        <img class="flip" src="images/projects/vislocsift_after.png">
                                     </div>
-                                    <img src='images/projects/vislocsift_before.png' width="auto" style="max-height: 80%; max-width: 100%;">
+                                    <img class="flip" src="images/projects/vislocsift_before.png">
                                 </div>
                                 <script type="text/javascript">
-                                    function vislocsift_start() {document.getElementById('vislocsift_img').style.opacity = "1";}
-                                    function vislocsift_stop() {document.getElementById('vislocsift_img').style.opacity = "0";}
+                                    function vislocsift_start() {document.getElementById("vislocsift_img").style.opacity = "1";}
+                                    function vislocsift_stop() {document.getElementById("vislocsift_img").style.opacity = "0";}
                                     vislocsift_stop()
                                 </script>
                             </td>
                             <!-- ----------------------------------------------- Info ----------------------------------------------- -->
-                            <td style="padding:4px;width:70%;vertical-align:top">
+                            <td class="proj-right">
                                 <a><papertitle>Visual Localization using SIFT Features</papertitle></a>
                                 <br>
                                 <strong>Sulabh Shrestha</strong>
                                 <br>
+                                [ <a href="data/proj-visual-localization-using-sift-features.pdf">slides</a> ]
                                 <p>Collect SIFT features from multiple reference locations in the indoor environment. Use SIFT features to localize the agent. Experiments conducted on the 
                                     <a href="https://www.cs.unc.edu/~ammirato/active_vision_dataset_website/index.html">Active Vision dataset</a> show that SIFT features successfully localize the agent in most scenarios.
                                 </p>
@@ -148,52 +149,54 @@
                         
                         <!-- ----------------------------------------------- |=|=|=|=| ----------------------------------------------- -->
                         <tr onmouseout="adaptive_stop()" onmouseover="adaptive_start()" bgcolor="#ffffff">
-                            <td style="padding:4px;width:30%;vertical-align:middle;margin:auto;">
+                            <td class="proj-left">
                                 <div class="one">
-                                    <div class="two" id='adaptive_img'>
-                                        <img src='images/projects/adaptive_after.png' width="auto" style="max-height: 80%; max-width: 100%;">
+                                    <div class="two" id="adaptive_img">
+                                        <img class="flip" src="images/projects/adaptive_after.png">
                                     </div>
-                                    <img src='images/projects/adaptive_before.png' width="auto" style="max-height: 80%; max-width: 100%">
+                                    <img class="flip" src="images/projects/adaptive_before.png">
                                 </div>
                                 <script type="text/javascript">
-                                    function adaptive_start() {document.getElementById('adaptive_img').style.opacity = "1";}
-                                    function adaptive_stop() {document.getElementById('adaptive_img').style.opacity = "0";}
+                                    function adaptive_start() {document.getElementById("adaptive_img").style.opacity = "1";}
+                                    function adaptive_stop() {document.getElementById("adaptive_img").style.opacity = "0";}
                                     adaptive_stop()
                                 </script>
                             </td>
                             <!-- ----------------------------------------------- Info ----------------------------------------------- -->
-                            <td style="padding:4px;width:70%;vertical-align:top">
+                            <td class="proj-right">
                                 <a><papertitle>Adaptive Similarity Metric</papertitle></a>
                                 <br>
                                 <strong>Sulabh Shrestha</strong>
                                 <br>
-                                <p>Find distances between anchor-positive and anchor-negative image-pairs using a pre-trained classification model. Train an embedding network using an <em>adaptive</em> triplet margin loss guided by the difference between these distances. Experiments conducted on <a href="https://ai.stanford.edu/~jkrause/cars/car_dataset.html">CARS196 dataset</a> show that using loss guided by the similarity performs better than typical triplet margin loss.
+                                [ <a href="data/proj-adaptive-similarity-metric.pdf">slides</a> ]
+                                <p>Find anchor-positive and anchor-negative distances using a pre-trained classification model. Use these distances as a measure of similarity among triplet images. Train an embedding network using an <em>adaptive</em> guided by the similarity. Experiments conducted on <a href="https://ai.stanford.edu/~jkrause/cars/car_dataset.html">CARS196 dataset</a> show that adaptive triplet margin loss performs better than its counterpart.
                                 </p>
                             </td>
                         </tr>
 
                         <!-- ----------------------------------------------- |=|=|=|=| ----------------------------------------------- -->
                         <tr onmouseout="distracted_stop()" onmouseover="distracted_start()" bgcolor="#ffffff">
-                            <td style="padding:4px;width:30%;vertical-align:middle;margin:auto;">
+                            <td class="proj-left">
                                 <div class="one">
-                                    <div class="two" id='distracted_img'>
-                                        <img src='images/projects/distracted_after.png' width="160" style="max-height: 100%; max-width: 100%;">
+                                    <div class="two" id="distracted_img">
+                                        <img class="flip" src="images/projects/distracted_after.png">
                                     </div>
-                                    <img src='images/projects/distracted_before.png' width="160" style="max-height: 100%; max-width: 100%">
+                                    <img class="flip" src="images/projects/distracted_before.png">
                                 </div>
                                 <script type="text/javascript">
-                                    function distracted_start() {document.getElementById('distracted_img').style.opacity = "1";}
-                                    function distracted_stop() {document.getElementById('distracted_img').style.opacity = "0";}
+                                    function distracted_start() {document.getElementById("distracted_img").style.opacity = "1";}
+                                    function distracted_stop() {document.getElementById("distracted_img").style.opacity = "0";}
                                     distracted_stop()
                                 </script>
                             </td>
                             <!-- ----------------------------------------------- Info ----------------------------------------------- -->
-                            <td style="padding:4px;width:70%;vertical-align:top">
+                            <td class="proj-right">
                                 <a><papertitle>Distracted Driver Detection using Attention Weighted features</papertitle></a>
                                 <br>
                                 <strong>Sulabh Shrestha</strong>, <a href="https://scholar.google.com/citations?user=eL70RKUAAAAJ&hl=en">Angeela Acharya</a>, <a href="https://scholar.google.com/citations?user=vqwjFWIAAAAJ&hl=en">Anita Tadakamalla</a>
                                 <br>
-                                <p>Extract importance or weights per location in the feature map using Bi-LSTM. Use score weighted feature for the final classification. Use max-score to visualize why the driver was classified as distracted. Train model end-to-end. Experiments conducted on <a href="https://www.kaggle.com/c/state-farm-distracted-driver-detection">State Farm Distracted Driver Detection</a> dataset.
+                                [ <a href="data/proj-state-farm-distracted-driving.pdf">slides</a> ]
+                                <p>Extract importance or weights per location in the feature map using Bi-LSTM. Use score weighted feature for the final classification. Use max-score as a form of interpretation as to why the driver was classified as distracted. Train model end-to-end. Experiments conducted on <a href="https://www.kaggle.com/c/state-farm-distracted-driver-detection">State Farm Distracted Driver Detection</a> dataset.
                                 </p>
                             </td>
                         </tr>
